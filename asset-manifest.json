@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/GarettPF/portfolio.git/static/css/main.073c9b0a.css",
+    "main.js": "/GarettPF/portfolio.git/static/js/main.b9d22e29.js",
+    "static/js/787.1ed0c42c.chunk.js": "/GarettPF/portfolio.git/static/js/787.1ed0c42c.chunk.js",
+    "static/media/logo.svg": "/GarettPF/portfolio.git/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/GarettPF/portfolio.git/index.html",
+    "main.073c9b0a.css.map": "/GarettPF/portfolio.git/static/css/main.073c9b0a.css.map",
+    "main.b9d22e29.js.map": "/GarettPF/portfolio.git/static/js/main.b9d22e29.js.map",
+    "787.1ed0c42c.chunk.js.map": "/GarettPF/portfolio.git/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.b9d22e29.js"
+  ]
+}
