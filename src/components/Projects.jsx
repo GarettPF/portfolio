@@ -1,4 +1,8 @@
 import ProBox from "./ProBox";
+import Espresso from '../images/espresso.webp';
+import TrafficSim from '../images/trafficsim.webp';
+import Science from '../images/sciencear.webp';
+import Cairrier from '../images/cairrier.webp';
 
 function Projects() {
   return (
@@ -7,53 +11,52 @@ function Projects() {
         <div className="container">
           <div className="project-content">
             <p>portfolio</p>
-            <h3>Each project is a unique piece of development 🧩</h3>
+            <h3>Every project represents a distinct and bespoke development endeavor 🧑‍💻</h3>
             <div className="projects-grid">
               <ProBox
                 title="Espresso"
-                // img={CarRental}
+                img={Espresso}
                 description="Espresso is a very basic programming language and the Compiler is written in java. The Compiler output can be executed using a JVM."
                 techno1="Java"
                 techno2="Jasmin"
-                code="https://github.com/stefvndev/car-rental"
-                demo="https://car-rental-ten.vercel.app/"
-                scrollY="-83%"
+                code="https://github.com/GarettPF/Espresso-Language"
+                demo="https://youtu.be/lcm88kNYWRo"
+                scrollY="-30%"
                 icon="☕"
               />
 
               <ProBox
                 title="Traffic Simulation"
-                // img={CoinDom}
-                description="Coindom is a crypto app that allows users to search for information about various cryptocurrencies in real-time."
-                techno1="React"
-                techno2="SCSS"
-                code="https://github.com/stefvndev/coindom-crypto"
+                img={TrafficSim}
+                description="Python-powered traffic simulation app for modeling and analyzing traffic flow dynamics."
+                techno1="Python"
+                code="https://github.com/GarettPF/Traffic-Simulation"
                 demo="https://coindom-crypto-search.vercel.app/"
-                scrollY="-74%"
-                icon="🪙"
+                scrollY="0%"
+                icon="🚗"
                 cName="reversed-proj"
               />
 
               <ProBox
                 title="Science.AR"
-                // img={Gymate}
-                description="A gym website is a comprehensive resource for fitness information, class schedules, membership options, and tools to help users achieve their fitness goals."
-                techno1="React"
-                techno2="Tailwind CSS"
-                code="https://github.com/stefvndev/Gymate"
-                demo="https://gymate-iota.vercel.app/"
-                scrollY="-89%"
+                img={Science}
+                description="Web app leveraging augmented reality to provide interactive science education. Designed exclusively for mobile."
+                techno1="JavaScript"
+                techno2="Bootstrap"
+                code="https://github.com/GarettPF/Science.AR"
+                demo="https://garettpf.github.io/Science.AR/"
+                scrollY="-60%"
                 icon="🏋️"
               />
 
               <ProBox
                 title="cAIrrier"
-                // img={Raouf}
-                description="With a focus on simplicity and clean design, this store prioritize user experience, making it easy for customers to find and purchase the products they need."
-                techno1="React"
-                techno2="Vanila CSS"
-                code="https://github.com/stefvndev/Minimalist-E-commerce"
-                demo="https://minimalist-e-commerce.vercel.app/"
+                img={Cairrier}
+                description="A HIPAA compliant semi-automated two way messaging system designed for healthcare providers and powered by artificial intelligence"
+                techno1="JavaScript"
+                techno2="Bootstrap"
+                code="https://github.com/GarettPF/cAIrrier"
+                demo="https://cairrier.web.app/"
                 scrollY="-71%"
                 icon="🛒"
                 cName="reversed-proj"

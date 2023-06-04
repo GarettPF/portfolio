@@ -350,7 +350,7 @@ nav ul a:hover {
 }
 
 .hero-img {
-    /* background-image: url("/src/images/pfp_webp.webp"); */
+    background-image: url("/src/images/pfp.jfif");
     width: 35rem;
     height: 35rem;
     background-size: cover;
