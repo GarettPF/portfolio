@@ -16,7 +16,7 @@ function Footer() {
                   rel="noreferrer"
                   href="https://www.linkedin.com/in/garettpf/"
                 >
-                  <FaGithub/>
+                  <FaGithub className='footerc__icons'/>
                 </a>
                 <a
                   aria-label="github"
@@ -24,7 +24,7 @@ function Footer() {
                   rel="noreferrer"
                   href="https://github.com/GarettPF"
                 >
-                  <FaLinkedin/>
+                  <FaLinkedin className='footerc__icons'/>
                 </a>
               </div>
             </div>

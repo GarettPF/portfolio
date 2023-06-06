@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { HiHome } from 'react-icons/hi';
-import { FaUser, FaCode, FaEnvelope } from 'react-icons/fa';
+import { FaUser, FaCode, FaEnvelope, FaBars } from 'react-icons/fa';
 import '../styles/styles.css';
 
 function Navbar() {
@@ -39,7 +39,7 @@ function Navbar() {
                 </li>
 
                 <li onClick={() => hamburgerMenu()}>
-                    <i className="fa-solid fa-bars-staggered mobile-menu"></i>
+                    <FaBars/>
                 </li>
                 </ul>
             </nav>

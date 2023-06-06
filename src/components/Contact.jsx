@@ -14,7 +14,7 @@ function Contact() {
 
                 <div className="contact__icon-box">
                   <span>
-                    <FaMapMarkedAlt/>
+                    <FaMapMarkedAlt className='contactIcons'/>
                   </span>
                   <div className="contact__info">
                     <h3>Location</h3>
@@ -24,7 +24,7 @@ function Contact() {
   
                 <div className="contact__icon-box">
                   <span>
-                    <FaEnvelopeOpenText/>
+                    <FaEnvelopeOpenText className='contactIcons'/>
                   </span>
                   <div className="contact__info">
                     <h3>Mail</h3>
@@ -33,17 +33,6 @@ function Contact() {
                     </a>
                   </div>
                 </div>
-
-                <div className="contact__icon-box">
-                  <span>
-                    <FaDiscord/>
-                  </span>
-                  <div className="contact__info">
-                    <h3>Discord</h3>
-                    <p>TrueMO0#2408</p>
-                  </div>
-                </div>
-
               </div>
             </div>
           </div>

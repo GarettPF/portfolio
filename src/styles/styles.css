@@ -530,58 +530,9 @@ nav ul a:hover {
     position: relative;
 }
 
-.img-side span {
-    width: 19rem;
-    height: 19rem;
-    position: absolute;
-    background-color: white;
-    bottom: -33px;
-    right: 33px;
-    border-radius: 50%;
-}
-
-@media (max-width: 1020px) {
-    .img-side span {
-        width: 17rem;
-        height: 17rem;
-        bottom: -3px;
-        right: 190px;
-    }
-}
-
-@media (max-width: 880px) {
-    .img-side span {
-        bottom: -3px;
-        right: 100px;
-    }
-}
-
-@media (max-width: 750px) {
-    .img-side span {
-        display: none;
-    }
-}
-
-.img-side span img {
-    width: 19rem;
-    animation: rotate 9s linear infinite;
-}
-
-@media (max-width: 1020px) {
-    .img-side span img {
-        width: 17rem;
-    }
-}
-
-@keyframes rotate {
-    to {
-        transform: rotate(360deg);
-    }
-}
-
 .img-side__main-img {
     width: 41rem;
-    height: 35rem;
+    max-height: 35rem !important;
     border-radius: 1.7rem;
 }
 
@@ -595,34 +546,6 @@ nav ul a:hover {
     .img-side__main-img {
         width: 90%;
         height: auto;
-    }
-}
-
-.work-emoji {
-    position: absolute;
-    z-index: 10;
-    width: 6rem !important;
-    bottom: 35px;
-    right: 98px;
-}
-
-@media (max-width: 1020px) {
-    .work-emoji {
-        bottom: 25px;
-        right: 245px;
-    }
-}
-
-@media (max-width: 880px) {
-    .work-emoji {
-        bottom: 57px;
-        right: 156px;
-    }
-}
-
-@media (max-width: 750px) {
-    .work-emoji {
-        display: none;
     }
 }
 
@@ -897,7 +820,7 @@ nav ul a:hover {
     border-radius: 50%;
 }
 
-.contact__icon-box span i {
+.contact__icon-box span .contactIcons {
     font-size: 3rem;
     color: #147efb;
 }
@@ -958,12 +881,12 @@ footer h3 {
     gap: 2rem;
 }
 
-.footerc__socials i {
+.footerc__socials .footerc__icons {
     font-size: 2.3rem;
     color: white;
 }
 
-.footerc__socials i:hover {
+.footerc__socials .footerc__icons:hover {
     transform: scale(1.2);
     transition: all 0.2s ease-in-out;
 }

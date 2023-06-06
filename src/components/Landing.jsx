@@ -6,35 +6,42 @@
 // import React from "../images/icons/react.svg";
 // import Tailwind from "../images/icons/tailwind.svg";
 // import Sass from "../images/icons/scss.svg";
+import Python from '../images/Icons/python.png';
+import Java from '../images/Icons/java.png';
+import C from '../images/Icons/C.png';
+import Cpp from '../images/Icons/cpp.png';
+import Js from '../images/Icons/js.png';
+import React from '../images/Icons/react.png';
+
 import {FaGithub, FaLinkedin} from 'react-icons/fa';
 
 function Hero() {
-//   const skillsIcons = [
-//     {
-//       img: Html,
-//       title: "HTML5",
-//     },
-//     {
-//       img: Css,
-//       title: "CSS3",
-//     },
-//     {
-//       img: Js,
-//       title: "Java Script",
-//     },
-//     {
-//       img: React,
-//       title: "React",
-//     },
-//     {
-//       img: Tailwind,
-//       title: "Tailwind CSS",
-//     },
-//     {
-//       img: Sass,
-//       title: "SCSS",
-//     },
-//   ];
+  const skillsIcons = [
+    {
+      img: Python,
+      title: "Python",
+    },
+    {
+      img: Java,
+      title: "Java",
+    },
+    {
+      img: C,
+      title: "C",
+    },
+    {
+      img: Cpp,
+      title: "C++",
+    },
+    {
+      img: Js,
+      title: "JavaScript",
+    },
+    {
+      img: React,
+      title: "React",
+    },
+  ];
 
   return (
     <>
@@ -76,11 +83,11 @@ function Hero() {
               <p>Tech Stack</p>
               <div className="logos">
                 <ul>
-                  {/* {skillsIcons.map((icon) => (
+                  {skillsIcons.map((icon) => (
                     <li key={icon.title}>
                       <img src={icon.img} title={icon.title} alt="skill-icon" />
                     </li>
-                  ))} */}
+                  ))}
                 </ul>
               </div>
             </div>

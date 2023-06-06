@@ -31,7 +31,7 @@ function Projects() {
                 description="Python-powered traffic simulation app for modeling and analyzing traffic flow dynamics."
                 techno1="Python"
                 code="https://github.com/GarettPF/Traffic-Simulation"
-                demo="https://coindom-crypto-search.vercel.app/"
+                demo="https://youtu.be/8LAYeSdmRXY"
                 scrollY="0%"
                 icon="🚗"
                 cName="reversed-proj"

@@ -1,6 +1,4 @@
-// import AboutImg from "../images/about-img.webp";
-// import RoundedText from "../images/text2.svg";
-// import WorkingEmoji from "../images/working-emoji.png";
+import BasicSlider from './BasicSlider';
 
 function AboutMe() {
   return (
@@ -9,11 +7,7 @@ function AboutMe() {
         <div className="container">
           <div className="about-content">
             <div className="img-side">
-              {/* <img src={WorkingEmoji} alt="emoji" className="work-emoji" /> */}
-              {/* <img src={AboutImg} alt="mee" className="img-side__main-img" /> */}
-              <span>
-                {/* <img src={RoundedText} alt="text" /> */}
-              </span>
+              <BasicSlider/>
             </div>
             <div className="text-side">
               <h3>About me</h3>
